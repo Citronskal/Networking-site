@@ -14,10 +14,10 @@ export const LoginForm = () => {
     return (
       <>
         <form onSubmit={handleSubmit}>
-          <h2>註冊 / 登入</h2>
           <img src="/public/login.png" className="login-icon" />
+          <h2>Sign up/ Login</h2>
           <div>
-            <label htmlFor="email">帳號：</label>
+            <label htmlFor="email">Account：</label>
             <input
               type="email"
               id="email"
@@ -27,7 +27,7 @@ export const LoginForm = () => {
             />
           </div>
           <div>
-            <label htmlFor="password">密碼：</label>
+            <label htmlFor="password">Password：</label>
             <input
               type="password"
               id="password"
@@ -36,9 +36,9 @@ export const LoginForm = () => {
               required
             />
           </div>
-          <button type="submit">送出</button>
+          <button type="submit">Submit</button>
         </form>
-        <p>還沒有註冊？點擊此連結註冊</p>
+        <p>Haven't signed up yet？Click here to sign up</p>
       </>
     );
 }

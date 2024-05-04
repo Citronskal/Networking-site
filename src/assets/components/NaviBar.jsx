@@ -1,4 +1,7 @@
-export const NavigationBar = () => {
+import { useState } from "react";
+import "./NaviBar.css";
+
+export const NaviBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearchChange = (event) => {
@@ -8,7 +11,6 @@ export const NavigationBar = () => {
   const handleSearchSubmit = (event) => {
     event.preventDefault();
     console.log("Searching for:", searchTerm);
-    // You can add more logic here for actual search functionality
   };
 
   return (
@@ -16,15 +18,16 @@ export const NavigationBar = () => {
       <nav className="navbar">
         <div className="navbar-logo">Eatgether</div>
         <form onSubmit={handleSearchSubmit} className="search-form">
+          <p>Find activities</p>
           <input
             type="text"
             placeholder="Search..."
             value={searchTerm}
             onChange={handleSearchChange}
           />
-          <button type="submit">Search</button>
+          <button type="submit" className="search-form-btn">🔍</button>
         </form>
-        <ul>
+        <ul className="nav-links">
           <li>
             <a href="/">Home</a>
           </li>

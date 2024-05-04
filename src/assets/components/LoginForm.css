@@ -1,33 +1,51 @@
+/* General styles for the form to center everything */
+body {
+  background-color: #e5e5e5;
+}
+
 form {
-  max-width: 300px;
-  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
+  margin: auto;
+  max-width: 300px;
 }
 
-h2 {
-  text-align: center;
-}
-
+/* Styles for the icon image */
 .login-icon {
-  height: 150px;
-  width: 150px;
-}
-
-div {
+  width: 100px;
   margin-bottom: 20px;
 }
 
-label {
-  display: block;
+/* Styles for headers inside the form */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
+/* Styles for form input containers */
+div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Styles for labels */
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+/* Styles for input fields to expand to full width of their container */
 input[type="email"],
 input[type="password"] {
   width: 100%;
   padding: 8px;
-  margin-top: 5px;
+  box-sizing: border-box;
 }
 
+/* Styles for the submit button */
 button {
   width: 100%;
   padding: 10px;
@@ -36,7 +54,16 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 20px;
 }
+
+/* Additional styling for hover effect on button */
 button:hover {
   background-color: #0056b3;
+}
+
+/* Centering paragraph below the form */
+p {
+  text-align: center; 
+  margin-top: 20px; 
 }
