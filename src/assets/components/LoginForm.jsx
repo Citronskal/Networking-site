@@ -13,9 +13,9 @@ export const LoginForm = () => {
 
     return (
       <>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="login-form">
           <img src="/public/login.png" className="login-icon" />
-          <h2>Sign up/ Login</h2>
+          <h2>Sign up / Login</h2>
           <div>
             <label htmlFor="email">Account：</label>
             <input

@@ -17,16 +17,20 @@ export const NaviBar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-logo">Eatgether</div>
-        <form onSubmit={handleSearchSubmit} className="search-form">
-          <p>Find activities</p>
-          <input
-            type="text"
-            placeholder="Search..."
-            value={searchTerm}
-            onChange={handleSearchChange}
-          />
-          <button type="submit" className="search-form-btn">🔍</button>
-        </form>
+        <div className="activities-search">
+          <form onSubmit={handleSearchSubmit} className="search-form">
+            <p>Find activities</p>
+            <input
+              type="text"
+              placeholder="Search..."
+              value={searchTerm}
+              onChange={handleSearchChange}
+            />
+            <button type="submit" className="search-form-btn">
+              🔍
+            </button>
+          </form>
+        </div>
         <ul className="nav-links">
           <li>
             <a href="/">Home</a>

@@ -1,6 +1,8 @@
 /* General styles for the form to center everything */
 body {
   background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
 form {
@@ -49,12 +51,12 @@ input[type="password"] {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
-  color: white;
+  background-color: #ffd935;
+  color: #333;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 20px;
+  border-radius: 30px;
 }
 
 /* Additional styling for hover effect on button */
@@ -63,7 +65,15 @@ button:hover {
 }
 
 /* Centering paragraph below the form */
+.login-form p {
+  text-align: center;
+  margin-top: 20px;
+}
+
 p {
-  text-align: center; 
-  margin-top: 20px; 
+  text-align: center;
+}
+
+.login-form {
+  margin-top: 30px;
 }
