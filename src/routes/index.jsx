@@ -1,5 +1,5 @@
 import { useRoutes } from "react-router-dom";
-import { Home, LoginPage } from "@/pages";
+import { Home, Login } from "@/pages";
 
 
 export const SetRoutes = () => {
@@ -10,7 +10,7 @@ export const SetRoutes = () => {
     },
     {
       path: "/login",
-      element: <LoginPage />,
+      element: <Login />,
     },
   ]);
   return routes;
