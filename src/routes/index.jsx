@@ -1,6 +1,6 @@
 import { useRoutes } from "react-router-dom";
-import { Home, Login } from "@/pages";
-
+import { Home } from "@/pages/Home/Home";
+import { Login } from "@/pages/Login/Login";
 
 export const SetRoutes = () => {
   const routes = useRoutes([
