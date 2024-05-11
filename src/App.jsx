@@ -1,11 +1,11 @@
-import "./App.css";
-import { LoginPage } from "./pages/LoginPage/LoginPage";
+import { BrowserRouter } from "react-router-dom";
+import { SetRoutes } from "./routes";
 
 function App() {
   return (
-    <>
-      <LoginPage />
-    </>
+    <BrowserRouter>
+      <SetRoutes />
+    </BrowserRouter>
   );
 }
 

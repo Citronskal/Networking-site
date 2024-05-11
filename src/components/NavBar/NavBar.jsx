@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./NaviBar.css";
+import "./NavBar.css";
 
-export const NaviBar = () => {
+export const NavBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearchChange = (event) => {
@@ -15,7 +15,7 @@ export const NaviBar = () => {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="bg-white flex items-center py-[10px] px-5 font-light navbar">
         <div className="navbar-logo">Eatgether</div>
         <div className="activities-search">
           <form onSubmit={handleSearchSubmit} className="search-form">

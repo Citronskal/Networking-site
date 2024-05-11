@@ -7,7 +7,7 @@ const contentStyle = {
   textAlign: "center",
   background: "#364d79",
 };
-export const App = () => (
+export const Home = () => (
   <Carousel autoplay>
     <div>
       <h3 style={contentStyle}>1</h3>
