@@ -1,5 +1,6 @@
 import { Carousel } from "antd";
 import { MeetingSpots } from "@/components/MeetingSpots/MeetingSpots";
+import { LatestPosts } from "@/components/LatestPosts/LatestPosts";
 
 export const Home = () => (
   <>
@@ -34,5 +35,6 @@ export const Home = () => (
       </div>
     </Carousel>
     <MeetingSpots />
+    <LatestPosts />
   </>
 );
