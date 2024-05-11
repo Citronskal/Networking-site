@@ -1,13 +1,7 @@
 .navbar {
-  background-color: #fff;
   color: #333;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 10px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
 }
 
 .search-form {
@@ -73,3 +67,6 @@ ul {
 .nav-links li a:focus {
   color: #fa7268;
 }
+
+
+

@@ -1,5 +1,5 @@
 import { Carousel } from "antd";
-import { MeetingSpots } from "@/components/MeetingSpots";
+import { MeetingSpots } from "@/components/MeetingSpots/MeetingSpots";
 
 export const Home = () => (
   <>
