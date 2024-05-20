@@ -29,7 +29,6 @@ export const Login = () => {
 
   return (
     <>
-      <NavBar />
       <form onSubmit={handleSubmit} className="login-form flex flex-col">
         <img src="/public/login.png" className="login-icon" />
         <h2>Sign up / Login</h2>
