@@ -23,7 +23,7 @@ form {
 /* Styles for headers inside the form */
 h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* Styles for form input containers */
@@ -51,7 +51,7 @@ input[type="password"] {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #ffd935;
+  background-color: #f7de6e;
   color: #333;
   border: none;
   border-radius: 5px;
@@ -61,7 +61,7 @@ button {
 
 /* Additional styling for hover effect on button */
 button:hover {
-  background-color: #0056b3;
+  background-color: #ffd935;
 }
 
 /* Centering paragraph below the form */

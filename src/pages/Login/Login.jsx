@@ -1,4 +1,3 @@
-import { NavBar } from "@/components/NavBar";
 import "./Login.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -31,7 +30,7 @@ export const Login = () => {
     <>
       <form onSubmit={handleSubmit} className="login-form flex flex-col">
         <img src="/public/login.png" className="login-icon" />
-        <h2>Sign up / Login</h2>
+        <h2>Login</h2>
         <div>
           <label htmlFor="email">Account：</label>
           <input
@@ -54,7 +53,9 @@ export const Login = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
-      <p>Haven't signed up yet？Click here to sign up</p>
+      <p>
+        Don't have an account yet？Click <a href="">here</a> to sign up
+      </p>
     </>
   );
 };
